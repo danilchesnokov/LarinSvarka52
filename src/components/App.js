@@ -5,6 +5,7 @@ import Calculator from "./Calculator";
 import Portfolio from "./Portfolio";
 import Contacts from "./Contacts";
 import Header from "./Header";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contacts" element={<Contacts />} />
         </Routes>
+        <Footer />
       </div>
     </div>
   );
