@@ -13,7 +13,7 @@ function App() {
         <Header />
         <Navigation />
         <Routes>
-          <Route path="/" element={<WhyUs />} />
+          <Route path="/why-us" element={<WhyUs />} />
           <Route path="/calculator" element={<Calculator />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contacts" element={<Contacts />} />
