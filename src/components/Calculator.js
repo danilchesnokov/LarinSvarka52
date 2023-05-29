@@ -1,5 +1,7 @@
 export default function Calculator(){
     return (
-        <h2>Калькулятор</h2>
+        <div className="content">
+            <h2 className="content__title">Расчитайте стоимость навеса</h2>
+        </div>
     )
 }
